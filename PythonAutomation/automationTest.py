@@ -4,7 +4,7 @@ import time
 
 chrome_browser = webdriver.Chrome()
 chrome_browser.maximize_window()
-chrome_browser.get('https://demo.seleniumeasy.com/basic-first-form-demo.html')
+chrome_browser.get('https://www.seleniumeasy.com/basic-first-form-demo.html')
 
 # This solves the issue with the Popup for those that encounter it:
 chrome_browser.implicitly_wait(2)
